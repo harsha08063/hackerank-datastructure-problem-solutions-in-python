@@ -1,0 +1,9 @@
+def reversePrint(llist):
+    # Write your code here
+    l=list()
+    while llist!=None:
+        l.append(llist.data)
+        llist=llist.next
+    l.reverse()
+    for i in l:
+        print(i)
